@@ -1,0 +1,43 @@
+*,
+div,
+h3 {
+  margin: 0 auto;
+  width: 100%;
+}
+
+ul {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+img {
+  max-width: 450px;
+  height: 250px;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+
+.titulo {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* max-width: 550px; */
+  margin-left: 20px;
+}
+
+.titulo h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
